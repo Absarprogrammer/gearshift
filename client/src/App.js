@@ -12,7 +12,7 @@ import Profile from "./pages/Profile";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
        <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
