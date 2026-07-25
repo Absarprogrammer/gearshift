@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v6           # ✅ Node.js 24 native
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7           # ✅ Node.js 24 native
         with:
           node-version: '20'
           cache: 'npm'
@@ -54,7 +54,7 @@ jobs:
         uses: actions/checkout@v6           # ✅ Node.js 24 native
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7           # ✅ Node.js 24 native
         with:
           node-version: '20'
           cache: 'npm'
