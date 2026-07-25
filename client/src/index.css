@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* DARK THEME */
+.dark {
+  --bg-main: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  --card-bg: rgba(255,255,255,0.06);
+  --text-color: white;
+}
+
+/* LIGHT THEME */
+.light {
+  --bg-main: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  --card-bg: white;
+  --text-color: #111;
+}
